@@ -17,7 +17,10 @@ import streamlit as st
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')  # 🔧 Evita error de backend en Streamlit Cloud
+import matplotlib
+matplotlib.use('Agg')  # 🔧 Evita error de backend en Streamlit Cloud
 import matplotlib.pyplot as plt
+
 
 import uuid
 
